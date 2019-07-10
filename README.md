@@ -27,6 +27,7 @@ Usage
 use Cocur\Arff\Document;
 use Cocur\Arff\Column\NumericColumn;
 use Cocur\Arff\Column\NominalColumn;
+use Cocur\Arff\Writer;
 
 $document = new Document('iris');
 $document->addColumn(new NumericColumn('sepallength'));
